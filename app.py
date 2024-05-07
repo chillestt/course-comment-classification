@@ -6,7 +6,7 @@ import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import altair as alt
 
-model_name = "course-review-analysis"
+model_name = "chillies/course-review-analysis
 labels = {
     0: "Improvement Suggestions",
     1: "Questions",
